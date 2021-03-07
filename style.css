@@ -9,19 +9,19 @@ html{
 }
 .header{
     margin-top: 25px;
-    background-image: url(../Landingpage.jpg),url(../imageapp.png);
+    background-image: url(../Landingpage.jpg);
   height: 100vh;
   background-size: cover;
   background-position: center;
   max-width: 3000px;
-  margin:auto;
 
 
 }
 #navbar{
   display: flex;
 justify-content: space-between;
-margin-top: 10px;
+/* margin-top: 10px; */
+margin: 10px 10px;
 align-items: center;
 position: sticky;
 }
@@ -106,7 +106,6 @@ a{
 .categories{
   height: 100%;
   margin-top: 20px;
-  border:2px solid green ;
 }
 .wrap {
   /* Add shadows to create the "card" effect */
